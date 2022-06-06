@@ -60,18 +60,9 @@ public class examjava2 {
                         System.out.println("nhập id muốn thay đổi :");
                         accid=ip.nextLine();
                         preparedStatementupdate.setString(1, accid);
-                        System.out.println("Nhập tên muốn thay đổi :");
+                        System.out.println("Nhập tên phim  thay đổi :");
                         name= ip.nextLine();
-                        preparedStatementupdate.setString(2,name);
-                        System.out.println("Nhập thời gian muốn thay đổi :");
-                        time= ip.nextLine();
-                        preparedStatementupdate.setString(3,time);
-                        System.out.println("Nhập tác giả muốn thay đổi :");
-                        author= ip.nextLine();
-                        preparedStatementupdate.setString(4,author);
-                        System.out.println("Nhập thời lượng phim muốn thay đổi :");
-                        movduration= ip.nextInt();
-                        preparedStatementupdate.setInt(5,movduration);
+
                         preparedStatementupdate.executeUpdate();
 
                     }
@@ -81,18 +72,8 @@ public class examjava2 {
                         System.out.println("nhập id muốn thay đổi :");
                         accid=ip.nextLine();
                         preparedStatementupdate.setString(1, accid);
-                        System.out.println("Nhập tên muốn thay đổi :");
+                        System.out.println("Nhập tên phim thay đổi :");
                         name= ip.nextLine();
-                        preparedStatementupdate.setString(2,name);
-                        System.out.println("Nhập thời gian muốn thay đổi :");
-                        time= ip.nextLine();
-                        preparedStatementupdate.setString(3,time);
-                        System.out.println("Nhập tác giả muốn thay đổi :");
-                        author= ip.nextLine();
-                        preparedStatementupdate.setString(4,author);
-                        System.out.println("Nhập thời lượng phim muốn thay đổi :");
-                        movduration= ip.nextInt();
-                        preparedStatementupdate.setInt(5,movduration);
                         preparedStatementupdate.executeUpdate();
 
                     }
@@ -102,18 +83,8 @@ public class examjava2 {
                         System.out.println("nhập id muốn thay đổi :");
                         accid=ip.nextLine();
                         preparedStatementupdate.setString(1, accid);
-                        System.out.println("Nhập tên muốn thay đổi :");
+                        System.out.println("Nhập tên phim thay đổi :");
                         name= ip.nextLine();
-                        preparedStatementupdate.setString(2,name);
-                        System.out.println("Nhập thời gian muốn thay đổi :");
-                        time= ip.nextLine();
-                        preparedStatementupdate.setString(3,time);
-                        System.out.println("Nhập tác giả muốn thay đổi :");
-                        author= ip.nextLine();
-                        preparedStatementupdate.setString(4,author);
-                        System.out.println("Nhập thời lượng phim muốn thay đổi :");
-                        movduration= ip.nextInt();
-                        preparedStatementupdate.setInt(5,movduration);
                         preparedStatementupdate.executeUpdate();
 
                     }
@@ -123,18 +94,8 @@ public class examjava2 {
                         System.out.println("nhập id muốn thay đổi :");
                         accid=ip.nextLine();
                         preparedStatementupdate.setString(1, accid);
-                        System.out.println("Nhập tên muốn thay đổi :");
+                        System.out.println("Nhập tên phim thay đổi :");
                         name= ip.nextLine();
-                        preparedStatementupdate.setString(2,name);
-                        System.out.println("Nhập thời gian muốn thay đổi :");
-                        time= ip.nextLine();
-                        preparedStatementupdate.setString(3,time);
-                        System.out.println("Nhập tác giả muốn thay đổi :");
-                        author= ip.nextLine();
-                        preparedStatementupdate.setString(4,author);
-                        System.out.println("Nhập thời lượng phim muốn thay đổi :");
-                        movduration= ip.nextInt();
-                        preparedStatementupdate.setInt(5,movduration);
                         preparedStatementupdate.executeUpdate();
 
                     }
@@ -144,18 +105,8 @@ public class examjava2 {
                         System.out.println("nhập id muốn thay đổi :");
                         accid=ip.nextLine();
                         preparedStatementupdate.setString(1, accid);
-                        System.out.println("Nhập tên muốn thay đổi :");
+                        System.out.println("Nhập tên phim thay đổi :");
                         name= ip.nextLine();
-                        preparedStatementupdate.setString(2,name);
-                        System.out.println("Nhập thời gian muốn thay đổi :");
-                        time= ip.nextLine();
-                        preparedStatementupdate.setString(3,time);
-                        System.out.println("Nhập tác giả muốn thay đổi :");
-                        author= ip.nextLine();
-                        preparedStatementupdate.setString(4,author);
-                        System.out.println("Nhập thời lượng phim muốn thay đổi :");
-                        movduration= ip.nextInt();
-                        preparedStatementupdate.setInt(5,movduration);
                         preparedStatementupdate.executeUpdate();
 
                     }
